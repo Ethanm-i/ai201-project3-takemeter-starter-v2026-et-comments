@@ -1,0 +1,310 @@
+﻿"text","label","note"
+"Opened fake “Word doc” that was actually a .LNK — Bitdefender detected shellcode, cmd keeps flashing. Wipe Windows?
+
+So, I got hit by what looks like a fake recruiter/job-description malware attempt.
+
+Someone claiming to be from some logistics firm sent me a Google Form for a job opportunity. I downloaded a ZIP that was supposed to contain a Word job description.
+After opening it, another file briefly appeared then disappeared, Command Prompt flashed open and closed then Bitdefender started detecting malicious activity cmd.exe kept appearing every few minutes, even after I disconnected from the internet Bitdefender showed that the “Word document” was actually:
+Apex_Role_Information_Document0926.docx.LNK
+It also detected Generic.ShellCode.Donut... and some alerts said the suspicious apps “have not been blocked.” I shut the laptop down mid-scan and haven’t turned it back on since. From another clean device I already: changed Google passwords, logged the infected laptop out of Google, changed social media passwords, revoked active sessions, and secured important accounts
+The laptop runs Windows 11 Home. Important files are already backed up in the cloud.
+My main question: would you consider this Windows install compromised enough to just wipe it and do a clean reinstall from USB?
+
+Or is it worth first checking:
+Task Scheduler
+Autoruns
+other persistence locations
+I was also considering Tron Script, but I’m not sure it makes sense before understanding what actually ran.
+Would also appreciate thoughts and advice on what to do and whether a clean Windows reinstall would be sufficient here.
+
+My machine is Lenovo Legion 5 16IRX9 (Type 83DG)","",""
+"NEED HELP GETTING RID OF A HACKER IN MY E-MAIL(URGENT)
+
+Just yesterday at 7:30am I got a bunch of notifications that someone got access to my Microsoft account(@hotmail.com)
+They deleted all security measures and replaced them with their own email. I attempted to change it back which resulted in a security change block lasting 30 days. Now to access any security features it requires me to send a code to this bs email.
+
+I changed the password and regained access but today they are attempting to log into my other accounts such as meta.
+Is there any way I can get Microsoft to remove this email from my account? It’s pretty obvious that I didn’t just suddenly delete all of my sign in options and change my verification email to some random temp email.
+
+PLEASE HELP!
+
+UPDATE
+
+First: No I did not download any weird programs and they did not have access to my pc. My information was apart of a data leak that I wasn’t aware of thus they just logged in.
+Second: After following the Microsoft support funnel I got to speak with a rep. They had me fill out a xbox form 2 separate times yesterday and today (by the way thank you Alma!) which somehow resulted in me gaining access to the security section of my account without needing to send a verification code to the attackers email.
+
+Third: thanks to those who commented and helped provide more information.","",""
+"Got hacked after using a pirated movie site, losing control of my accounts and really scared. What should I do?
+
+A few days ago, I watched a movie on a pirated website (Movierulz). Shortly after that, I started getting security notifications saying that someone from Russia was trying to download files and access my data.
+
+Within a very short time, almost everything spiraled out of control.
+My Google accounts, Instagram, and other logins were breached. My passwords were changed, and they gained access to my personal data — my email ID, date of birth, personal photos and videos, and even sensitive documents. They also created multiple accounts using my details.
+
+I immediately changed all my passwords and filed a cybercrime complaint, but even after that, they still somehow had access.
+The scariest part was Instagram. I changed my password and deactivated my account, but they logged back in and started posting stories. I couldn’t even deactivate the account again because they had taken control.","",""
+"Help: PC infected with an Infostealer (Session Hijacking / Cookie theft). How to completely clean my system?
+
+Hi everyone. My main account was recently hacked. The attacker managed to bypass my 2FA, so I'm certain I was hit by an infostealer that stole my session cookies (session hijacking).
+I have already opened a case with support to recover the account, but right now I need to clean my PC completely. I want to make sure the malware is no longer active, sending new tokens, or logging my keystrokes. What specific tools or steps do you recommend to thoroughly disinfect the system and get rid of any hidden scripts or malware? Thanks in advance! (My English isn't very good, I'm using a translator)","",""
+"Someone is trying to hack all of my accounts across different platforms and email addresses.
+
+For the past two weeks, there have been repeated attempts to access several of my accounts, including my email accounts, Facebook, and others. Two of my accounts have already been compromised: my Discord account and my Microsoft account.
+The bad thing is that I installed something about two weeks ago, so I think that might be what caused it. I've already reinstalled Windows three times. Does anyone know what could be happening?","",""
+"help prevent discord account from being hacked?
+
+today on discord i got a suspicious dm, i clicked a link+gave them my country and got a message+screenshot saying they were hacking my account?
+
+the link they sent was a weird link pretending to be a pinterest link (opened it in google)
+i instantly blocked them, changed my discord+ password+google account linked to discord password+google account i was logged into chrome
+
+i also ran scan of my phone but nothing was revealed?
+
+should i be worried about my account still? is there anything more i can do not to be hacked?","",""
+"Password managers, which ones are an absolute no-go, and what to look out for?
+
+As title says, which “password manager” is an absolute no-go? Could you please elaborate further on the safety risks and the biggest risks?
+
+Now it’s obviously a bad idea to safe them in browsers, but what about the default password managers that come with ios, macos, android, etc. And the ones provided by antivirus programs.
+
+It seems like the majority of people are oblivious judging by this subs stance on this subject, however, whenever I search for info all I can find is companies hyping their own product.
+
+Could I get an ELI5 please?","",""
+"How do you fully switch to a Password Manager?
+
+Hey everyone!  
+I’d like to ask someone who knows better than me about password managers.
+
+I’ve always created my own passwords, and even though I use different ones for different websites, I’d love to switch to a password manager. I’m just a bit concerned about a few things.
+
+First of all, isn’t it risky to use randomly generated passwords that you’ll never remember? I don’t mean from a security perspective, but more like not being able to access your accounts if you somehow don’t have access to your password manager.
+
+I use iOS but also have a Windows PC, so I’m not really sure how that would work across both platforms.
+
+Also, do password managers offer a way to automatically change your existing passwords to randomly generated ones, or do you have to do it manually for every account?
+
+Thank you in advance!","",""
+"What’s up with the password managers if it saves same as browser passkeys
+
+I don’t use any built-in passkey managers since there’s a risk that can occur (many of my friends are hacked first their discord account posted spams and then their accounts get hacked) as far as I understand this is because they can easily see the saved passwords on the computer especially on the browser. If having passwords manager has some what same logic since it also uses extensions on the browser is it means if same thing happens to someone who uses password managers will their accounts still be hacked (also not sure but they say they had 2FA open and even their google accounts are hacked). So is the using random passwords written to a physical paper is only way to keep secure? I’m confused and wanted to ask you guys.","",""
+"Password managers, which to choose?
+
+I've been using by default Google password manager for a long time, but reading many posts and articles on password managers I haven't come across anyone mentioning it. Instead it's always keepass, 1Password, Bitwarden.
+
+My main requirements are that it be free. Easy to use. And work with all my devices (Chromebook/Android/Windows).
+
+I have been using Google Chrome for years, so that's another reason why I haven't made the switch to another password manager. But I've been using as an alternative Firefox to try and break my reliance on chrome.
+
+My question is, besides preference, is there a major benefit of any of the above mentioned password managers over the others? Or any on the above list I should avoid?","",""
+"Why a password manager it's better than a physical option?
+
+I'm asking because I just want to understand in what ways it's better to have a password manager more than the option of having my passwords in the safety of my home, I'm ignorant in this topic so I wanna be informed about it, because i have my doubts about  having all my most important information in one manager, but lately if I think it's the way to go, start using one!","",""
+"What is the best password manager?
+
+Hi everyone,
+
+I’m looking for a reliable password manager that meets specific requirements I’m currently discussing with customer support. I’m torn between these options:
+
+Bitwarden
+1Password
+Dashlane
+Keeper
+LastPass
+
+Which one would you recommend and why?","",""
+"Password manager -multi device
+
+Are there any good, maybe free pw managers that work on windows and android? My fear is even if I store passwords in a cloud db or offline db with all kinds of master passwords, but if some app is hacked on my phone it could just ""take a screenshot"" or similar without my knowledge and consent. Is that paranoid? Would be great to have like a small pocket vault on keychain that could display my pws when I browse it.. such thing exists? Or anything else considered ""most safe/safest""?","",""
+"Are password managers generally safe to use?
+
+Yea, we're supposed to generally change our passwords every now and then, but what's the best way to keep track of what password goes where? and I've got accounts on tons of sites and platforms. To somebody like me who've never used em before, this seems very tiresome and a bit of a hassle, although it could protect us","",""
+"Clicked on a phishing link what else should I do?
+
+I clicked on a link and put in details, it was a Microsoft link spoof page.  My PSN and email were taken over.  Got my email back, changed passwords on everything linked to it, added more 2factor authentication where could, cancelled my card, deleted cookies. I'll be attempting to get back into my PSN tomorrow morning when the lines open.
+
+Is there anything else to do so I can go to sleep in peace?","",""
+"Confirming I'm ""safe"" after foolishly clicking the link
+
+I was going through my inbox and saw an email to renew my domain name. Since it is that time of year, I clicked on the link and noticed the URL changed from one domain name to another while the page was loading. Neither URL had anything to do with the WordPress site which was supposedly billing me (I think one of them was cooking-something).
+
+I scanned the page which asked for all the credit card and personal information but did not enter any info because my Spidey sense finally kicked in. Then I closed the window, downloaded Norton, and ran a scan.
+
+Will I be ""safe"" or do I need to now go and change all 51 of my passwords?","",""
+"Best practice for opening/investigating Phishing links?
+
+I’d like to start by saying that I don’t really like using on-premises/physical hardware VMs just in case of any vulnerability.
+
+I like Hybrid Analysis. Its scans usually always detect something that the other link scanners don’t detect, and it also opens it in its own VM, investigates it, and shows you snapshots of what was done in the VM so you can see for yourself where exactly this link goes and what you see if you click on it.
+
+The problem with Hybrid Analysis, is that everything is uploaded publicly, and if you are scanning a private link, that is only supposed to be for you, you are not supposed to put this link/info out into the public. So I am reluctant to use it sometimes.
+
+Any run seems like a good option, as it is a cloud based VM, however, from what I understand it is quite expensive.
+
+For free or cheap, what are the best practices?","",""
+"Help! My Mother clicked on a phishing link - can somebody check what it did?
+
+Hi!  
+My mother recently got a very well made mail, which after my investigation had phishing links in it. She sadly clicked on one. I won't share the link here, but would somebody be willing to investigate the link and tell me what she should do now?
+
+I will share the link with whoever is willing to investigate.
+
+Thank you!","",""
+"What the best 2fa option?
+
+Currently using a hardware key for two factor authentication but I’m considering using an Authenticator app for one time passcodes, my main worry is Authenticator apps is what happens if for example I lose my phone or it is damaged beyond repair, can I access my codes again or will I be locked out of my accounts. What’s the best method for this? Thanks","",""
+"Help with phishing link (poor english)
+
+Hello guys I just wanted to ask you politely. I accidentaly clicked on phishing link in chromes incognito mode on my smarthphone, but the website didnt even load. (I ran a test on virustotal, and then it said, that 2 websites called it phishing and another two websites called it malicious). I have ran full eset scan and even malwarebytes scan, but they didnt find anything. I didnt put any informations about me there and nothing has downloaded from that site. Should I be worried or you think im safe? Any tips? I know, that Im dumb, but I was talking with my girlfriend and lost focus and clicked on it accidentaly. Thanks for any help and for reading this. And Im very sorry, for my poor english","",""
+"Am I safe from a phishing link?
+
+I clicked a phishing link on my PC and it opened a tab but the tab didn’t connect. I clicked it again, not knowing it was a phishing link, and my antivirus said it was a phishing link and not opening. Am I safe from viruses?","",""
+"Did someone hack my wifi?
+
+So i know i sound paranoid but ive been right when everyone said im wrong before so hear me out pls.
+
+I used to have a shitty 10 year old modem and a surveillance camera attached to it in my flat.
+
+I got into a feud with one of my neighbors and maybe he got access to my wifi?
+
+Im just asking because i heard its very easy to brute force old wpa2 security. I had wps always disabled tho.
+
+I bought a new router once i got suspicious, but i guess if you have access to a router u can also install some kind of spyware on the pc.
+
+I just want to know if thats possible or not","",""
+"Most secure home Wi-Fi gateways.
+
+What Wi-Fi gateways are the most secure and most hack resistant? I know nothing is hack PROOF, but if I’ve been having security issues and plan to do a complete overhaul of my network and internet provider, what would be the best home Wi-Fi router for me?","",""
+"Hi, I recently encountered some privacy/security vulnerabilities, but I'm not well-versed on some basics.. help?
+
+I hate to admit that I have some learning disabilities that make basic tasks pretty daunting and I haven't had any resources. I hope someone can help guide me toward replacing my wifi router with something secure and dependable?I have been having some issues regarding anxiety, and hope that at least feeling somewhat more secure with my internet connection will help me feel less prone to unhelpful/conspiratorial thinking.. I was about to get a mesh wifi network (tp-links), but I lack expertise on compatibility with preexisting router and service options through my isp. That was probably too vague lol, but if anyone can parse it, I would sure appreciate it! Thx!","",""
+"Checking my router for malware
+
+My sister and brother in law came to our house to stay for a week over Christmas and hang out. It turns out though that both are working toward “cyber security” certificates, and my sister in law was bragging about them being able to hack into computers now, and how much they can control if they have access to a person’s router. While I have a really good relationship with my sister in law, I don’t trust my brother in law and wouldn’t put it past him to do something to our router. I’m probably being paranoid, but is there a way to check it for spyware?","",""
+"Is a hacker  routing his internet traffic through my router?
+
+Please respond or refer this to anyone/different subreddits who you think can help, I got a privacy warning a few months claiming all traffic was unencrypted, when connecting to my router on iPhone a few months ago  The person may have had physical access to my router. How would you know and prove it’s happening? I have grounds to believe it is, even without the privacy warning","",""
+"General Home network questions
+
+Hey guys.
+
+I've been in IT for a couple years now. I have Security+ and some understanding of security concepts but unfortunately I'm just not super creative or know what to do without getting direction or having prior experience.
+
+I'm looking to secure my home network. Like my devices connected to my network and my personal PC. Problem is, I have no idea where to start or what to do. I've got my TV, fridge, thermostat and some other devices connected via WIFI as well as mine and my wife's cell phones.
+
+Anyone got any guidance or direction that I should take to secure my network and keep our personal info, passwords, etc. from getting out there?","",""
+"Looking for some voip clarification!
+
+I have an English number and contract I wish to keep my English number (but I do need to renew my contract or change it soon) and I have a Mexican number which I use for data where I live.
+
+Nowow want to add a VOIP service that is linked to my English number regardless of whether I stay with my current provider or move. Is this doable? Sorry the research is getting a little confusing and its my first time.
+
+
+Ultimately its for work and I want to have my English number useable while I'm in Mexico without the impression I'm abroad.
+
+
+Thanks!!","",""
+"How can I consolidate 2fa/passwords securely?
+
+Hey everyone, I posted this exact thing in r/cybersecurity but it got removed instantly and said it should be posted in this sub instead.
+
+I’m trying to streamline my security setup and could use some advice. Right now, I use different two-factor authentication and  autofill password saving methods across several different apps and platforms. For instance, I have a work phone with google authenticator for strictly work/company accounts a password manager integrated into my web browser for personal accounts, and another standalone password manager for work accounts. Some saved in apple passwords/icloud The setup is secure but not very convenient.
+
+Ideally, I’d like to consolidate all my 2FA keys and passwords into a single, secure, and easy-to-access device, that's always around. For example, it's inconvenient if I need to suddenly do something for work, and I don't have my work phone nearby for the auth. It's annoying to also always carry two phones. Basically i'm looking for something like an apple watch or some device that can easily always be with me, to sync to get any 2fa key at any time. but also not storing anything online.
+
+One last thing, I'm not concerned about giving up ""theoretical risks"" like i know not having all the devices on me at once makes me safer from getting robbed, but for this example i just mean something that's virtually secure, it doesn't have to be secure from physical/external events like robbery or social engineering.
+
+I'm also sorry for the weirdly asked question, I don't know how to explain exactly what im looking for so i went a bit all over the place trying to be as specific as possible.","",""
+"Dark Web Report - Google 1
+
+I just signed up for Google 1 and included was a dark web report. In the results a breach dated 8 Feb 2024 (yesterday) is a breach from zeeroq.com email and password. It's a really old password, so no worries there. But can't find any information on zeeroq. I don't think there's much for me to do. I use Dashlane and updates my passwords regularly. I also use 2 factor authentication for my gmail account. Should I be concerned?","",""
+"Why is a VPN needed for individuals who browse online?
+
+Hello, I see that a lot of folks online use VPN. Some use it to view content available in other countries, I don’t need to. But I would use it if it was for security of my financial apps.
+
+However, banking apps themselves are already certified to be encrypted, hence usually safe.
+
+So what would be the need for it, for a person such as myself who would not mind much about someone making a profile of me somewhere? I am bothered about security and confidentiality of my banking and financial services apps alone.","",""
+"Are VPNs really that useful?
+
+Often I hear from people in my circle, and on the web, about the efficacy of VPNs in protecting personal data and digital identity. I am skeptical! The thing I learned is that as long as you are online, your data is exposed. So, can any cyber-security professional helps me to understand the concept of VPNs, from a technical POV, and whether they are really what people assume them to be? Thanks!","",""
+"Need advice on VPNs, secure browsing, and other stuff, please
+
+I have a bunch of cybersecurity questions, and I hope this is an ok place to ask.  I apologize if this is a bit scattered or rambly, as this is a bit out of my wheelhouse.
+
+1) VPNs.  Good ones?  Bad ones?  What pitfalls do I need to beware?  I understand that if it’s free, I’m the product.  I also understand that the provider could turn around and sell my info, for example.  So it’s not a panacea.  I have considered Proton, but have no way to evaluate.
+
+1B) On the subject of VPNs, setting aside the matter of region-locked content, what trouble can I get into by (for example) connecting to one that routes traffic into a different state or country?  Is there a use case for using the VPN for certain traffic (eg general browsing) but not other traffic (eg watching Netflix), or should I always connect?  Should I bounce around state to state or be consistent?
+
+2) Secure email - same concerns and thoughts.  How valuable is switching from gmail?  What hazards do I need to beware.  For example, is it worth creating a fresh username, or is recycling one ok?  That is, is there value in severing a link to old emails, or is it wasted effort if I’m using the same devices to connect to everything?
+
+3) Premium antivirus/antimalware services.  Worth it?  I run Defender and Malwarebytes, on Windows side.  Is to use something beyond that, or is that wasted money?  What about phones and tablets (Android or iPhone)?
+
+4) What’s the best way to redact social media history, if I so choose?   For example, I have a decade+ history here - that’s a lot to manually do.  I’ve looked at Redact.dev, but I’m leery about giving them access.
+
+5) Is there a way to improve phone safety in public.  I’ve read about fake cell towers, for example, that mimic real ones and grab your data.
+
+6) What about credit card skimmers?  I always wiggle the readers at gas pumps and the like, but what about ones that can be used walking past people in a crowd.  How do I best protect vs that?  Or is that such a rare threat that it doesn’t warrant concern.
+
+Those are the ones I can think of now.  I don’t feel like I’m an idiot, but I feel outpaced - I use robust passwords and don’t click email links, I scan regularly, I don’t connect to public wifi, I don’t click browser ads or browse shady sites.  I just worry that’s simply not enough.  I’ve had data breaches (not my end, at the end of the company I was using) a few times, so I know I can’t put it all back in the box.  But I want to do what I reasonably can.
+
+So some guidance would be much appreciated.  Thank you!
+
+Edit: thank you all so much!  I’ll try to respond as I have time to read through your answers!","",""
+"Which VPN and antivirus combo is best?
+
+Hi, I've just gotten a new laptop and my free antivirus trial is about to expire. So, I now have to start looking for a new one. But I wanna get a VPN and antivirus combo, so which one is the best? Also, if I get one should I keep my email with Proton?","",""
+"Best Antivirus for PC
+
+I'm using windows and I've not used any antivirus so far but these days I'm very concerned about my PC security..
+
+
+I'm seeking advice for which antivirus is best and effictive as well as free that is used by people mostly? I've no prior knowledge about antivirus softwares.
+
+Thanks in advance!","",""
+"Question about basic Microsoft Defender
+
+So, my mom is looking into discontinuing her Avast Ultimate subscription, and I was considering just advising her to use the basic Microsoft Defender that comes with windows 11. I am a Cybersec student, but I don't have much experience with Defender, so I don't feel confident about advising her to do so. She doesn't do too much risky browsing, just looking at the news, shopping online, and listening to music.
+
+What I would like to know, is if Defender is sufficient for the type of stuff she does. I do know that the browser integration only really works in Edge, which she doesn't use. Any information would be helpful.","",""
+"What do I do after a ransomware attack
+
+About an hour ago I ran a file which turned out to be ransomware and it changed my laptops wallpaper and encrypted all my files which had .redkaw at the end of them.
+What do I do? All I’ve done so far is factory reset and reinstall windows","",""
+"Where to keep backups of password manager vault and 2FA recovery keys
+
+I want to back up the vault for my password manager as well as my 2FA recovery keys. (I prefer to keep them separate). Where is the best place to store these two sensitive backup files? I’ve read up on the subject, but I get different answers. I use a Windows 11 PC.
+
+Here are some of my ideas. Any suggestions would be appreciated.
+
+How I have exported the files:
+
+Exported my Bitwarden vault as a json-encrypted file and placed that file into a password-protected 7-zip archive
+I have my 2FA recovery keys in a Word file in a (different) password-protected 7-zip archive
+
+Where to put the files:
+
+I could put them on a thumb drive, but I go out of town sometimes and I might forget to bring it.
+I would like to keep a copy of both files in a cloud storage. I would like to use OneDrive Vault since I’m familiar with it.
+I could print a paper copy of the 2FA recovery keys and keep that in a safe place.
+
+My biggest concerns:
+
+PC gets infected with malware, keyloggers, etc
+Backup files end up in the wrong hands
+Misplacing or losing the thumb drives
+
+Here are my questions:
+
+Is it safe to put both files in my Onedrive Vault?
+Is it safe to put both files onto one thumb drive?
+Are there any glaring weaknesses in my security strategy?","",""
+"I GOT ATTACKED (Public Wifi)
+
+Hi, I need some help figuring out what to do next. I think I may have been attacked while connected to public Wi-Fi at the Taipei airport, and I’m concerned that my work laptop may have been compromised.
+
+I’ve already changed all my passwords and enabled 2FA on my accounts. However, my personal Facebook account was compromised, and the attacker was able to access our Ads Manager and run unauthorized ads, which resulted in significant spending.
+
+What should I do next? Could the attacker still have access to my accounts even after I changed my passwords and enabled 2FA? Is there anything else I should do to make sure they’re completely removed?","",""
+"hacked due to public wifi solution?
+
+hey reddit, we meet again. so a bunch of you know that you can get hacked just by connecting to public wifi, right? where a hacker pretends their connection is a legitimate wifi and if you join, the hacker can gain access to your passwords etc. I've accidentally joined a public wifi because i accidentally clicked on it. that was 2 weeks ago, and there no signs of hacking like accounts being compromised, etc. so i doubt I've been hacked. but JUST IN CASE i have been, what should i do? when i search on YouTube, it only shows me how to protect myself and not actually what to do if I've been hacked. back to my question, if I've been hacked due to joining a public wifi, or have been hacked by any reason in general, what should i do to fix it/remove the hacker? thank you everyone!","",""

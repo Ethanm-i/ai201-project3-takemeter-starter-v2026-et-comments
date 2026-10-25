@@ -42,6 +42,20 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+I chose [r/cybersecurity_help](https://www.reddit.com/r/cybersecurity_help/), a public Reddit community for personal cybersecurity support. It covers topics such as compromised accounts, phishing, and password managers, rather than one show or release. TakeMeter will classify how much concrete support and useful context posts provide; the final labels are still being developed.
+
+### Initial reading: candidate distinctions
+
+The initial sample contains 40 posts in [labels.csv](labels.csv). These observations refer to data rows, starting at 1 after the header:
+
+- **Evidence versus suspicion:** Post 1 names a suspicious file and an antivirus detection; post 40 reports no signs of compromise despite worrying about public Wi-Fi.
+- **Actions described versus omitted:** Post 15 lists password changes and account-recovery steps; post 18 asks for investigation without describing recovery steps.
+- **Specific requirements versus broad requests:** Post 10 specifies a free password manager for Chromebook, Android, and Windows; post 12 asks for a recommendation without stating its requirements.
+- **Explained tradeoffs versus a simple recommendation request:** Post 38 compares backup locations and possible failures; post 34 asks which VPN/antivirus combination is best without comparing tradeoffs.
+
+These are observable differences in the writing, not checks that the authors' security claims are correct.
+
+**Sources and progress:** The [public community page](https://www.reddit.com/r/cybersecurity_help/) and its [launch announcement](https://www.reddit.com/r/cybersecurity/comments/obbqxz/) establish its topic and public presence. The examples above come from the saved CSV; individual Reddit permalinks have not yet been recorded or independently matched. The collection target is 200 posts; 40 are currently saved. Personal completion of the required reading still needs confirmation.
 
 
 ---
@@ -93,8 +107,12 @@
 
 **Where the posts came from:**
 
+r/cybersecurity_help, the selected source community. The current CSV has 40 posts; original post URLs still need to be recorded for source verification.
+
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
+
+All 40 label and note fields are currently blank. No completed labelling is recorded in this file.
 
 **Counts per label:**
 
