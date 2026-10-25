@@ -42,20 +42,18 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-I chose [r/cybersecurity_help](https://www.reddit.com/r/cybersecurity_help/), a public Reddit community for personal cybersecurity support. It covers topics such as compromised accounts, phishing, and password managers, rather than one show or release. TakeMeter will classify how much concrete support and useful context posts provide; the final labels are still being developed.
+I chose [r/cybersecurity_help](https://www.reddit.com/r/cybersecurity_help/), a public Reddit community for personal cybersecurity support. It covers topics such as compromised accounts, phishing, and password managers, rather than one show or release. TakeMeter sorts posts into `evidence_report`, `contextual_request`, and `underspecified_request` based on the information supplied.
 
 ### Initial reading: candidate distinctions
 
-The initial sample contains 40 posts in [labels.csv](labels.csv). These observations refer to data rows, starting at 1 after the header:
+Post numbers refer to the 40 data rows in [labels.csv](labels.csv), excluding the header.
 
 - **Evidence versus suspicion:** Post 1 names a suspicious file and an antivirus detection; post 40 reports no signs of compromise despite worrying about public Wi-Fi.
 - **Actions described versus omitted:** Post 15 lists password changes and account-recovery steps; post 18 asks for investigation without describing recovery steps.
 - **Specific requirements versus broad requests:** Post 10 specifies a free password manager for Chromebook, Android, and Windows; post 12 asks for a recommendation without stating its requirements.
 - **Explained tradeoffs versus a simple recommendation request:** Post 38 compares backup locations and possible failures; post 34 asks which VPN/antivirus combination is best without comparing tradeoffs.
 
-These are observable differences in the writing, not checks that the authors' security claims are correct.
-
-**Sources and progress:** The [public community page](https://www.reddit.com/r/cybersecurity_help/) and its [launch announcement](https://www.reddit.com/r/cybersecurity/comments/obbqxz/) establish its topic and public presence. The examples above come from the saved CSV; individual Reddit permalinks have not yet been recorded or independently matched. The collection target is 200 posts; 40 are currently saved. Personal completion of the required reading still needs confirmation.
+**Community source:** [Public launch announcement](https://www.reddit.com/r/cybersecurity/comments/obbqxz/).
 
 
 ---
@@ -68,35 +66,36 @@ These are observable differences in the writing, not checks that the authors' se
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+Examples summarize full posts in [labels.csv](labels.csv).
 
-**Definition:**
+### `evidence_report`
 
-**Example 1:**
->
+**Definition:** Reports a specific diagnostic result, warning, or observed device/account change relevant to the question, rather than only asserting that something is unsafe or hacked.
 
-**Example 2:**
->
+- **Post 1 — “Opened fake ‘Word doc’…”:** Names the disguised .LNK file, antivirus detection, and repeated Command Prompt activity.
+- **Post 20 — “Help with phishing link (poor english)”**: Reports VirusTotal detections and clean ESET/Malwarebytes scans.
 
-### `label_two`
+### `contextual_request`
 
-**Definition:**
+**Definition:** Without qualifying evidence, supplies at least one concrete detail about the author's technical setup, action taken, exposure, or requirement that narrows the requested advice.
 
-**Example 1:**
->
+- **Post 10 — “Password managers, which to choose?”**: Requires a free manager supporting Chromebook, Android, and Windows.
+- **Post 38 — “Where to keep backups of password manager vault and 2FA recovery keys”**: Describes encrypted exports, storage options, and recovery concerns.
 
-**Example 2:**
->
+### `underspecified_request`
+
+**Definition:** Requests help without qualifying evidence or concrete setup, action, exposure, or requirement details, beyond naming the general topic or candidate products.
+
+- **Post 12 — “What is the best password manager?”**: Lists products but leaves its claimed “specific requirements” unstated.
+- **Post 23 — “Most secure home Wi-Fi gateways.”**: Mentions unspecified security issues and asks for the most secure router without describing the existing setup or concrete constraints.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Boundary post:** Post 40, “hacked due to public wifi solution?”, could fit `evidence_report` or `contextual_request`. **Rule:** A named diagnostic result (including a clean scan), specific warning, or observed device/account change takes priority as `evidence_report`; otherwise, use `contextual_request` for concrete context and `underspecified_request` when none is supplied. Post 40 is `contextual_request`: it describes Wi-Fi exposure, but “no signs” is not a diagnostic result.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+### Boundary stress test
 
-
+[Eight synthetic boundary tests](taxonomy_stress_test.md) clarify that clean scan results count as evidence, while product lists and unstated requirements do not count as concrete context. Labels measure information supplied, not technical correctness.
 
 ---
 
@@ -107,12 +106,12 @@ These are observable differences in the writing, not checks that the authors' se
 
 **Where the posts came from:**
 
-r/cybersecurity_help, the selected source community. The current CSV has 40 posts; original post URLs still need to be recorded for source verification.
+r/cybersecurity_help; 40 of the planned 200 posts are saved. Individual post URLs remain unverified.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-All 40 label and note fields are currently blank. No completed labelling is recorded in this file.
+Not yet labelled; all 40 label and note fields are blank.
 
 **Counts per label:**
 
